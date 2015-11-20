@@ -120,4 +120,4 @@ fi
 MY_HOSTNAME=$(hostname)
 alias mysql=$(echo -e 'mysql --prompt="\x1B[01;32m\\u\x1B[34m \x1B[38;5;208m$MY_HOSTNAME \x1B[36m⛁ \\d\x1B[01;32m > \x1B[0m"')
 
-source ~/git-completion.bash
+source ~/repo/dot-files/git-completion.bash
